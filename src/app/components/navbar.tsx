@@ -52,7 +52,13 @@ const Navbar = ({ isChecked, onToggle }: { isChecked: boolean, onToggle: () => v
                 <Link href="/">Homepage</Link>
               </li>
               <li>
-                <Link href="/maids">Maids</Link>
+                <Link href="/sharee">Sharee</Link>
+              </li>
+              <li>
+                <Link href="/panjabi">Panjabi</Link>
+              </li>
+              <li>
+                <Link href="/threepcs">Three Pieces</Link>
               </li>
               <li>
                 <a>About</a>
