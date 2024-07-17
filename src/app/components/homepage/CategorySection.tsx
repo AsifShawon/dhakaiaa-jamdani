@@ -13,6 +13,7 @@ const CategorySection = () => {
             <Image
               src="/images/sharee_2.jpg"
               alt="Shoes"
+              style={{ objectFit: 'cover' }}
               width={300}
               height={300}
               className="w-full h-full object-cover"
@@ -29,8 +30,14 @@ const CategorySection = () => {
               </span>
             </p>
             <div className="md:pr-10 flex justify-end">
-              <button className="btn md:w-[200px] bg-red-400 hover:bg-red-700 border-red-400">
+              <button className="btn btn-error md:w-[200px] bg-red-400 hover:bg-red-700 border-red-400">
                 Check Out Now
+                <Image
+                src="/images/up-arrow.png"
+                width={50}
+                height={10}
+                alt="arrow"
+                />
               </button>
             </div>
           </div>
@@ -42,6 +49,7 @@ const CategorySection = () => {
               <Image
                 src="/images/panjabi_2.jpg"
                 alt="Shoes"
+                style={{ objectFit: 'cover' }}
                 width={300}
                 height={300}
                 className="w-full h-full object-cover"
@@ -55,8 +63,14 @@ const CategorySection = () => {
                 loose-fitting shirt often adorned with intricate embroidery.
               </p>
               <div className="card-actions justify-end">
-                <button className="btn md:w-[200px] bg-red-400 hover:bg-red-700 border-red-400">
+                <button className="btn btn-error md:w-[200px] bg-red-400 hover:bg-red-700 border-red-400">
                   Check Out Now
+                  <Image
+                src="/images/up-arrow.png"
+                width={50}
+                height={10}
+                alt="arrow"
+                />
                 </button>
               </div>
             </div>
@@ -67,6 +81,7 @@ const CategorySection = () => {
               <Image
                 src="/images/threepcs_2.jpg"
                 alt="Shoes"
+                style={{ objectFit: 'cover' }}
                 width={300}
                 height={300}
                 className="w-full h-full object-cover"
@@ -80,8 +95,14 @@ const CategorySection = () => {
                 dupatta (scarf).
               </p>
               <div className="card-actions justify-end">
-                <button className="btn md:w-[200px] bg-red-400 hover:bg-red-700 border-red-400">
+                <button className="btn btn-error md:w-[200px] bg-red-400 hover:bg-red-700 border-red-400">
                   Check Out Now
+                  <Image
+                src="/images/up-arrow.png"
+                width={50}
+                height={10}
+                alt="arrow"
+                />
                 </button>
               </div>
             </div>

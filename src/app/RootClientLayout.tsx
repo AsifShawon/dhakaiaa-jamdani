@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { Inter } from "next/font/google";
 import Navbar from "./components/navbar";
 import "./globals.css";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,6 +34,7 @@ export default function RootClientLayout({
         <Navbar isChecked={isChecked} onToggle={handleToggle} />
         </div>
         {children}
+        <Footer/>
       </body>
     </html>
   );

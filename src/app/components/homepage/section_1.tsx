@@ -22,7 +22,7 @@ const Section_1 = () => {
   ];
 
   return (
-    <section className='container mx-auto my-24 p-8'>
+    <section className='container mx-auto m-14 p-8 bg-base-200 rounded-md'>
       <h1 className="text-4xl font-bold text-center pb-6 text-red-500">What We Offer</h1>
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-8">
         {features.map((feature, index) => (
@@ -32,6 +32,7 @@ const Section_1 = () => {
               src={feature.icon}
               width={70}
               height={100}
+              style={{ objectFit: 'cover' }}
               alt='icon'
               />
             </div>
