@@ -36,8 +36,8 @@ const TrendingProducts = () => {
   ];
   return (
     <div className="p-10">
-      <h1 className="text-4xl pb-2 text-left pl-32 text-red-500 font-bold">Trending Products for You!</h1>
-      <div className="flex justify-start pl-32">
+      <h1 className="md:text-4xl text-3xl pb-2 md:text-left text-center md:pl-32 text-red-500 font-bold">Trending Products for You!</h1>
+      <div className="flex justify-start md:pl-32">
         <hr className="border-t-2 border-red-400 w-96" />
       </div>
       <div className="flex justify-center pt-10">
