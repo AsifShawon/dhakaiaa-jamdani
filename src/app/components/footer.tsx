@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </nav>
       <aside className="bg-slate-400 w-full h-16">
-        <p>
+        <p className="text-black">
           Copyright © ${new Date().getFullYear()} - All right reserved by <Link href="/" className="text-red-500">Dhakaiaa Jamdani</Link>
         </p>
       </aside>
