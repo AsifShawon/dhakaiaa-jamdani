@@ -6,32 +6,38 @@ const TrendingProducts = () => {
     {
       name: "Sharee",
       price: "1920",
-      image: "/images/sharee_2.jpg",
+      image: "/images/sharee_1.jpg",
+      discount: 0,
     },
     {
       name: "Panjabi",
       price: "2920",
-      image: "/images/panjabi_2.jpg",
+      image: "/images/panjabi_1.jpg",
+      discount: 10,
     },
     {
       name: "Three Piece",
       price: "3920",
-      image: "/images/threepcs_2.jpg",
+      image: "/images/threepcs_1.jpg",
+      discount: 10,
     },
     {
       name: "Sharee",
       price: "1920",
       image: "/images/sharee_2.jpg",
+      discount: 0,
     },
     {
       name: "Panjabi",
       price: "2920",
       image: "/images/panjabi_2.jpg",
+      discount: 10,
     },
     {
       name: "Three Piece",
       price: "3920",
       image: "/images/threepcs_2.jpg",
+      discount: 0,
     },
   ];
   return (

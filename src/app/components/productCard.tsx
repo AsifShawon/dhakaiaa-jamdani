@@ -15,6 +15,23 @@ const ProductCard = ({ props }: { props: any }) => {
           className="max-h-96"
         />
       </figure>
+
+      { product.discount == 0 ?
+        "" :
+        <div className="absolute top-5 left-5 bg-cyan-600 p-2 pl-3 pr-3 rounded-full text-white">
+          -{product.discount}%
+        </div>
+      }
+      <div className="bg-white absolute top-5 p-2 rounded-full md:left-80 left-[260px]">
+        <Image
+          src="/images/heart-no-fill.png"
+          alt="Add to wishlist"
+          height={30}
+          width={30}
+          style={{ cursor: "pointer" }}
+        />
+      </div>
+
       <div className="card-body bg-cyan-800 rounded-2xl absolute md:top-[370px] top-[270px] w-full h-[100px]">
         <div className="text-white flex justify-between items-center">
           <div>

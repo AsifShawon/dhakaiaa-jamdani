@@ -43,7 +43,7 @@ const CategorySection = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col md:gap-4 gap-8">
           <div className="card bg-base-100 image-full w-full md:w-[650px] h-[290px] shadow-xl">
             <figure>
               <Image
