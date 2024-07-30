@@ -1,15 +1,35 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
+import LeftBar from "./LeftBar";
 
 const TopBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [sortOption, setSortOption] = useState("Default Sorting");
 
   return (
-    <div className="flex items-center">
-      <p></p>
-      <p className="text-lg">Sort By: </p>
-      <div className="relative inline-block text-left pl-5">
+    <div className="flex items-center justify-between">
+      <div className='lg:hidden'>
+        <div className="drawer">
+          <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+          <div className="drawer-content">
+            <label htmlFor="my-drawer"><Image
+              src="/images/filter.png"
+              width={20}
+              height={20}
+              alt="Filter"
+            /></label>
+          </div>
+          <div className="drawer-side z-10">
+            <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
+            <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-2 pr-10 pt-24">
+              <LeftBar />
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="relative text-left pl-5 flex items-center">
+      <p className="text-lg pr-10">Sort By: </p>
         <div>
           <button
             type="button"
@@ -86,7 +106,7 @@ const TopBar = () => {
               >
                 Rating
               </a>
-              
+
             </div>
           </div>
         )}
