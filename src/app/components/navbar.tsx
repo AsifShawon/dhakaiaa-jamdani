@@ -10,7 +10,6 @@ import { useEffect } from "react";
 const Navbar = ({ isChecked, onToggle }: { isChecked: boolean, onToggle: () => void }) => {
   const [searchOpen, setSearchOpen] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
-
   const handleSearchToggle = () => {
     setSearchOpen(!searchOpen);
   };

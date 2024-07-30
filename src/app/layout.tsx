@@ -3,8 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import RootClientLayout from "./RootClientLayout";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: "Dhakaia Jamdani",
   description: "Dhakaia Jamdani is a traditional Bangladeshi saree made of cotton, muslin, or silk. It is a handwoven fabric made of cotton, muslin, or silk, and it is one of the finest and most expensive sarees in Bangladesh.",
